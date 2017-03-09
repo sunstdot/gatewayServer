@@ -745,3 +745,6 @@
 2017-03-09 16:20:41,281 INFO 82296 [egg-schedule] send message: send egg-schedule:/Users/stonesun/Project/eggServer/egg-example/app/schedule/update_cache.js
 2017-03-09 16:20:44,755 INFO 82296 [egg-schedule] send message: sendRandom egg-schedule:/Users/stonesun/Project/eggServer/egg-example/app/schedule/pull_refresh.js
 2017-03-09 16:20:54,755 INFO 82296 [egg-schedule] send message: sendRandom egg-schedule:/Users/stonesun/Project/eggServer/egg-example/app/schedule/pull_refresh.js
+2017-03-09 17:49:36,250 INFO 85137 [egg:watcher:agent] watcher start success
+2017-03-09 17:49:35,907 INFO 85137 [egg:logger] init all loggers with options: {"dir":"/Users/stonesun/Project/test/gatewayServer/logs/eggServer","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"eggServer--web-log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-03-09 17:49:36,096 INFO 85137 [egg:agent] create an AgentWorkerClient for "watcher"

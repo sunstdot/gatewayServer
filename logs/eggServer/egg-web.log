@@ -4916,3 +4916,63 @@
 2017-03-09 16:20:54,757 INFO 82351 [-/127.0.0.1/-/1ms GET /] [egg:background] task:- success (1ms)
 2017-03-09 16:20:54,758 INFO 82354 [-/127.0.0.1/-/1ms GET /] [egg:background] task:- success (1ms)
 2017-03-09 16:20:54,759 INFO 82352 [-/127.0.0.1/-/1ms GET /] [egg:background] task:- success (1ms)
+2017-03-09 17:49:37,887 INFO 85140 [egg:logger] init all loggers with options: {"dir":"/Users/stonesun/Project/test/gatewayServer/logs/eggServer","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"eggServer--web-log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-03-09 17:49:37,888 INFO 85140 [egg:worker] create an AppWorkerClient for "watcher"
+2017-03-09 17:49:37,982 INFO 85140 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-03-09 17:49:37,983 INFO 85140 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-03-09 17:49:37,983 INFO 85140 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/force_refresh.js
+2017-03-09 17:49:37,983 INFO 85140 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/pull_refresh.js
+2017-03-09 17:49:37,983 INFO 85140 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/update_cache.js
+2017-03-09 17:49:38,174 INFO 85140 [egg-static] starting static serve /public/ -> /Users/stonesun/Project/test/gatewayServer/app/public
+2017-03-09 17:49:38,181 INFO 85140 [egg-security] use csrf middleware
+2017-03-09 17:49:38,182 INFO 85140 [egg-security] use methodnoallow middleware
+2017-03-09 17:49:38,183 INFO 85140 [egg-security] use noopen middleware
+2017-03-09 17:49:38,183 INFO 85140 [egg-security] use nosniff middleware
+2017-03-09 17:49:38,184 INFO 85140 [egg-security] use xssProtection middleware
+2017-03-09 17:49:38,185 INFO 85140 [egg-security] use xframe middleware
+2017-03-09 17:49:38,185 INFO 85140 [egg-security] compose 6 middlewares into one security middleware
+2017-03-09 17:49:37,943 INFO 85138 [egg:logger] init all loggers with options: {"dir":"/Users/stonesun/Project/test/gatewayServer/logs/eggServer","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"eggServer--web-log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-03-09 17:49:37,944 INFO 85138 [egg:worker] create an AppWorkerClient for "watcher"
+2017-03-09 17:49:38,065 INFO 85138 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-03-09 17:49:38,066 INFO 85138 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-03-09 17:49:38,066 INFO 85138 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/force_refresh.js
+2017-03-09 17:49:38,066 INFO 85138 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/pull_refresh.js
+2017-03-09 17:49:38,066 INFO 85138 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/update_cache.js
+2017-03-09 17:49:38,145 INFO 85138 [egg-static] starting static serve /public/ -> /Users/stonesun/Project/test/gatewayServer/app/public
+2017-03-09 17:49:38,151 INFO 85138 [egg-security] use csrf middleware
+2017-03-09 17:49:38,154 INFO 85138 [egg-security] use methodnoallow middleware
+2017-03-09 17:49:38,155 INFO 85138 [egg-security] use noopen middleware
+2017-03-09 17:49:38,155 INFO 85138 [egg-security] use nosniff middleware
+2017-03-09 17:49:38,156 INFO 85138 [egg-security] use xssProtection middleware
+2017-03-09 17:49:38,157 INFO 85138 [egg-security] use xframe middleware
+2017-03-09 17:49:38,157 INFO 85138 [egg-security] compose 6 middlewares into one security middleware
+2017-03-09 17:49:37,953 INFO 85139 [egg:logger] init all loggers with options: {"dir":"/Users/stonesun/Project/test/gatewayServer/logs/eggServer","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"eggServer--web-log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-03-09 17:49:37,955 INFO 85139 [egg:worker] create an AppWorkerClient for "watcher"
+2017-03-09 17:49:38,073 INFO 85139 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-03-09 17:49:38,073 INFO 85139 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-03-09 17:49:38,073 INFO 85139 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/force_refresh.js
+2017-03-09 17:49:38,073 INFO 85139 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/pull_refresh.js
+2017-03-09 17:49:38,073 INFO 85139 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/update_cache.js
+2017-03-09 17:49:38,383 INFO 85139 [egg-static] starting static serve /public/ -> /Users/stonesun/Project/test/gatewayServer/app/public
+2017-03-09 17:49:38,388 INFO 85139 [egg-security] use csrf middleware
+2017-03-09 17:49:38,389 INFO 85139 [egg-security] use methodnoallow middleware
+2017-03-09 17:49:38,389 INFO 85139 [egg-security] use noopen middleware
+2017-03-09 17:49:38,390 INFO 85139 [egg-security] use nosniff middleware
+2017-03-09 17:49:38,390 INFO 85139 [egg-security] use xssProtection middleware
+2017-03-09 17:49:38,391 INFO 85139 [egg-security] use xframe middleware
+2017-03-09 17:49:38,391 INFO 85139 [egg-security] compose 6 middlewares into one security middleware
+2017-03-09 17:49:37,970 INFO 85141 [egg:logger] init all loggers with options: {"dir":"/Users/stonesun/Project/test/gatewayServer/logs/eggServer","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"eggServer--web-log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-03-09 17:49:37,971 INFO 85141 [egg:worker] create an AppWorkerClient for "watcher"
+2017-03-09 17:49:38,012 INFO 85141 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-03-09 17:49:38,012 INFO 85141 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-03-09 17:49:38,012 INFO 85141 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/force_refresh.js
+2017-03-09 17:49:38,012 INFO 85141 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/pull_refresh.js
+2017-03-09 17:49:38,012 INFO 85141 [egg-schedule]: register schedule egg-schedule:/Users/stonesun/Project/test/gatewayServer/app/schedule/update_cache.js
+2017-03-09 17:49:38,208 INFO 85141 [egg-static] starting static serve /public/ -> /Users/stonesun/Project/test/gatewayServer/app/public
+2017-03-09 17:49:38,408 INFO 85141 [egg-security] use csrf middleware
+2017-03-09 17:49:38,410 INFO 85141 [egg-security] use methodnoallow middleware
+2017-03-09 17:49:38,411 INFO 85141 [egg-security] use noopen middleware
+2017-03-09 17:49:38,412 INFO 85141 [egg-security] use nosniff middleware
+2017-03-09 17:49:38,413 INFO 85141 [egg-security] use xssProtection middleware
+2017-03-09 17:49:38,414 INFO 85141 [egg-security] use xframe middleware
+2017-03-09 17:49:38,414 INFO 85141 [egg-security] compose 6 middlewares into one security middleware

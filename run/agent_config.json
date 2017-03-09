@@ -16,7 +16,7 @@
     },
     "i18n": {
       "defaultLocale": "en_US",
-      "dir": "/Users/stonesun/Project/eggServer/egg-example/config/locales",
+      "dir": "/Users/stonesun/Project/test/gatewayServer/config/locales",
       "queryField": "locale",
       "cookieField": "locale",
       "cookieMaxAge": "1y"
@@ -94,16 +94,16 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/stonesun/Project/eggServer/egg-example/app/public",
+      "dir": "/Users/stonesun/Project/test/gatewayServer/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false
     },
     "view": {
-      "dir": "/Users/stonesun/Project/eggServer/egg-example/app/view",
+      "dir": "/Users/stonesun/Project/test/gatewayServer/app/view",
       "cache": false,
       "root": [
-        "/Users/stonesun/Project/eggServer/egg-example/app/view"
+        "/Users/stonesun/Project/test/gatewayServer/app/view"
       ],
       "mapping": {
         ".tpl": "nunjucks",
@@ -125,7 +125,7 @@
       "private": true,
       "dependencies": {
         "egg": "^0.9.0",
-        "egg-view-nunjucks": "^2.0.0",
+        "egg-view-nunjucks": "^1.0.0",
         "formstream": "^1.1.0"
       },
       "devDependencies": {
@@ -163,9 +163,9 @@
       "author": "sunst",
       "license": "MIT"
     },
-    "baseDir": "/Users/stonesun/Project/eggServer/egg-example",
+    "baseDir": "/Users/stonesun/Project/test/gatewayServer",
     "HOME": "/Users/stonesun",
-    "rundir": "/Users/stonesun/Project/eggServer/egg-example/run",
+    "rundir": "/Users/stonesun/Project/test/gatewayServer/run",
     "notfound": {
       "pageUrl": "",
       "enableRedirect": false
@@ -14381,7 +14381,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/stonesun/Project/eggServer/egg-example/logs/eggServer",
+      "dir": "/Users/stonesun/Project/test/gatewayServer/logs/eggServer",
       "encoding": "utf8",
       "env": "local",
       "level": "DEBUG",
@@ -14459,8 +14459,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-onerror",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-onerror",
       "version": "1.3.0"
     },
     "userservice": {
@@ -14470,8 +14470,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-userservice",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-userservice",
       "version": "1.0.0"
     },
     "userrole": {
@@ -14481,8 +14481,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-userrole",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-userrole",
       "version": "1.1.1"
     },
     "session": {
@@ -14492,8 +14492,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-session",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-session",
       "version": "1.1.0"
     },
     "i18n": {
@@ -14503,8 +14503,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-i18n",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-i18n",
       "version": "1.1.0"
     },
     "validate": {
@@ -14514,8 +14514,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-validate",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-validate",
       "version": "1.0.0"
     },
     "watcher": {
@@ -14525,8 +14525,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-watcher",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-watcher",
       "version": "1.0.0"
     },
     "multipart": {
@@ -14536,8 +14536,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-multipart",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-multipart",
       "version": "1.1.0"
     },
     "security": {
@@ -14549,9 +14549,9 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-security",
-      "version": "1.6.0"
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-security",
+      "version": "1.8.0"
     },
     "development": {
       "enable": true,
@@ -14564,8 +14564,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-development",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-development",
       "version": "1.2.0"
     },
     "schedule": {
@@ -14575,8 +14575,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-schedule",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-schedule",
       "version": "2.3.0"
     },
     "logrotator": {
@@ -14588,8 +14588,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-logrotator",
+      "from": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-logrotator",
       "version": "2.2.2"
     },
     "static": {
@@ -14599,8 +14599,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-static",
+      "from": "/Users/stonesun/Project/test/gatewayServer/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-static",
       "version": "1.2.0"
     },
     "nunjucks": {
@@ -14612,18 +14612,18 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/config/plugin.js",
-      "path": "/Users/stonesun/Project/eggServer/egg-example/node_modules/egg-view-nunjucks",
+      "from": "/Users/stonesun/Project/test/gatewayServer/config/plugin.js",
+      "path": "/Users/stonesun/Project/test/gatewayServer/node_modules/egg-view-nunjucks",
       "version": "1.0.0"
     },
     "ua": {
       "enable": true,
-      "path": "/Users/stonesun/Project/eggServer/egg-example/lib/plugin/egg-ua",
+      "path": "/Users/stonesun/Project/test/gatewayServer/lib/plugin/egg-ua",
       "name": "ua",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/stonesun/Project/eggServer/egg-example/config/plugin.js"
+      "from": "/Users/stonesun/Project/test/gatewayServer/config/plugin.js"
     }
   }
 }
