@@ -14578,6 +14578,7 @@
       ],
       "from": "/Users/stonesun/Project/eggServer/gatewayServer/node_modules/egg/config/plugin.js",
       "path": "/Users/stonesun/Project/eggServer/gatewayServer/node_modules/egg-development",
+
       "version": "1.2.0"
     },
     "schedule": {
