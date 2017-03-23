@@ -49,5 +49,22 @@ module.exports = appInfo => {
     defaultExtention: '.tpl',     // 一般render时需要指定文件扩展名，如果配置了此选项则可以忽略
     cache: true, // 模版路径缓存，默认开启
   };
+  /**
+   * mongodb 数据库连接
+   */
+  config.mongoose = {
+    url:'mongodb://127.0.0.1/emoticon',
+    optons:{}
+  };
+  config.security = {
+    csrf: {
+      enable: false,
+    },
+    domainWhiteList:['http://127.0.0.1:9090']
+  }
+  config.cors = {
+    allowMethds:'GET,HEAD,PUT,POST,DELETE.PATCH'
+  };
+
   return config;
 };

@@ -1,6 +1,7 @@
 // 该文件跑在app worker进程上
 'use strict';
 module.exports = app => {
+  console.log("start work process");
   app.messenger.on('refresh', by => {
     app.logger.info('start update by %s', by);
      // create an anony context to access service
@@ -15,7 +16,7 @@ module.exports = app => {
     const result = yield app.curl('https://registry.npm.taobao.org/egg/latest', {
       dataType: 'json',
     });
-    // 在controller中可以直接this.app.result方式来使用
-    app.result = result;
+    // 在controller中可以直接this.app.result或者app.result的方式来使用,因为app=this.app
+    app.result = result.data;
   });
 };

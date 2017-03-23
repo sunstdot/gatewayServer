@@ -3,6 +3,7 @@
 'use strict';
 const Subscriber = require('./lib/subscriber');
 module.exports = agent => {
+  console.log('start agent ==========');
   const subscriber = new Subscriber();
   subscriber.on('changed', () => agent.messenger.sendToApp('refresh', 'push'));
   agent.messenger.on('app-ready', () => {

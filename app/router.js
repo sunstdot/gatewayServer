@@ -1,15 +1,20 @@
 'use strict';
 // 路由不建议拆分，不方便管理
 module.exports = app => {
+  
   app.redirect('/', '/news/test');
   app.get('/news/test', app.controller.news.test);
   app.get('/news', app.controller.news.list);
   app.get('/ua', function* () {
     this.body = `isIOS: ${this.isIOS}`;
   });
+
   // 爱奇艺server
   app.get('/video/:id', app.controller.video.info);
   app.get('/polyinfo', app.controller.polyInfo.getInfo);
+
+  //expression
+  app.post('/sessions',app.controller.session.create);
   // restful 风格的路由
   app.resources('Topic', '/api/v2/topics', 'topic');
 

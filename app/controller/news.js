@@ -39,7 +39,7 @@ module.exports = app => {
     }
     * test() {
       const ctx = this.ctx;
-      ctx.body = 'hi, egg';
+      ctx.body = app.result;
     }
   }
   return NewsController;

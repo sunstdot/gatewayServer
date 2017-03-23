@@ -10,3 +10,11 @@ exports.ua = {
   enable: true,
   path: path.join(__dirname, '../lib/plugin/egg-ua'),
 };
+exports.mongoose = {
+  enable: true,
+  package: 'egg-mongoose'
+};
+exports.cors = {
+  enable:true,
+  package:'egg-cors'
+};

@@ -1,11 +1,13 @@
 {
-  "name": "eggServer",
+  "name": "gatewayServer",
   "version": "1.0.0",
   "description": "merge interface and handle data",
   "private": true,
   "dependencies": {
     "egg": "^0.9.0",
-    "egg-view-nunjucks": "^2.0.0",
+    "egg-cors": "^1.0.0",
+    "egg-mongoose": "^1.1.1",
+    "egg-view-nunjucks": "^1.2.0",
     "formstream": "^1.1.0"
   },
   "devDependencies": {
@@ -25,13 +27,13 @@
   "scripts": {
     "start": "node index.js",
     "dev": "egg-bin dev",
-    "test": "npm run lint -- --fix && npm run test-local",
+    "test": "npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
     "autod": "autod",
-    "debug":"egg-bin debug"
+    "debug": "egg-bin debug"
   },
   "ci": {
     "version": "6"
